@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    font-size: 16px;
+    font-family:'Roboto',sans-serif;
+    font-weight: normal;
+    color:#0f141e;
+    background:#f1f1f1;
+}
+
+.avatar{
+    width: 200px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, .25);
+}
+
+.avatarka{
+    margin-right: 5%;
+}
+
+.content-info{
+    display: flex;
+}
+
+
+.container{
+    max-width: 500px;
+    margin:auto;
+    padding-top: 10px;
+}
+
+.info a{
+    color: darkslategray;
+}
+a:hover{
+color:aquamarine;
+}
+
+a:active{
+    color:fuchsia
+}
+
+.info-text h1{
+    display: flex;
+}
+
+.info p{
+    margin: 0px;
+    /* display: flex; */
+}
+
+.textme{
+    /* display: flex; */
+}
+
+.info-text li{
+font-size: 16px;
+font-style: italic;
+}
+
+.harak{
+    font-weight: bold;
+    color: red;
+}
+
+.card{
+    border: 2px solid blueviolet;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    display: abso;
+}
+
+.bg-grey{
+    background:rgb(88, 221, 254);
+     
+}
+
+.btn{
+    background: black;
+    padding: 15px 20px;
+    color:white;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.btn:hover{
+    opacity: 0.8;
+}
+
+.link-harak{
+margin-bottom: 10px;
+}
+
+.textme{
+font-size: 19px;
+margin-bottom: 10px;
+}
+
+.textme p{
+    /* border-bottom: 1px solid black; */
+}
+
+.form{
+    text-align: center;
+}
+
+.forma label{
+    display: block;
+    font-size: 14px;
+}
+
+.forma input, .forma textarea{
+    width: 100%;
+    box-sizing: border-box;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    color: black;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.forma-row{
+margin-bottom: 10px;
+}
+
+.forma-row .forma{
+display: inline-block;
+margin-right: 20px;
+width: calc(50% - 20px);
+}
+
+.forma-row .forma:last-child{
+    margin-right: 0;
+}
+
